@@ -1,0 +1,38 @@
+.sidebar {
+    position: fixed;
+    background-color: rgba(181, 199, 153, 0.904);
+    top: 80px;
+    bottom: 10px;
+    left: 0px;
+    z-index: 100;
+    padding: 48px 0 0;
+    
+    
+
+}
+#sidebar-wrapper{
+    min-height: 100vh !important;
+    width: 100vw;
+    margin-left: -1rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+}
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+
+#page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+}
+.link-decoration{
+    color: black;
+}
+.link-decoration:hover{
+    color: rgb(255, 145, 0);}
+b{
+    background-color: rgb(228, 233, 222);
+}

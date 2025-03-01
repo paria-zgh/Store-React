@@ -1,0 +1,231 @@
+
+a {
+  font-size: inherit;
+  color: inherit;
+}
+body {
+  background: #ffffff;
+}
+.wrapper {
+  margin: 40px auto;
+}
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+button {
+  margin: 20px;
+  background-color: initial;
+}
+.collection-1 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 200px;
+  width: 100%;
+  padding: 10px 25px;
+  margin: 20px;
+  background: 0 0;
+  transition: 0.3s;
+  color: #fff;
+  box-shadow: inset 2px 2px 2px 0 rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0 rgba(0, 0, 0, 0.1), 4px 4px 5px 0 rgba(0, 0, 0, 0.1);
+  outline: 0;
+}
+
+label{
+  font-size: 1rem;
+
+ 
+}
+input.form-control{
+  background-color: rgb(255, 255, 255);
+}
+input.form-control:focus {
+  background-color: rgba(245, 161, 6, 0.411);
+
+}
+.error{
+  display: flex;
+position: absolute;
+  color: rgb(207, 6, 6);
+  font-size:-6rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.img-fluid{
+  height:24rem
+}
+div.input-text{
+ 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 500px;
+background-color: rgba(181, 199, 153, 0.904);
+padding: 40px;
+
+display: grid;
+gap: 1px;
+margin-bottom: 40px;
+border-radius: 20px;
+box-shadow:8px 5px 6px rgba(4, 56, 7, 0.4); 
+border: 1px solid rgb(11, 59, 2);
+color: rgb(251, 251, 255);
+
+}
+.header{
+  background-color: rgba(126, 150, 110, 0.397);
+}
+.hefader{
+  background-color: rgba(17, 49, 2, 0.308);
+}
+.signCard{
+  margin-left: 100px;
+ margin-top: 80px;
+}
+.signBody{
+  background-image: url(../assets/sign.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  width: 100%;
+  height:900px;
+}
+.btn {
+  width: 160px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+ 
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out
+}
+
+.btn:hover {
+  background-position: 100% 0;
+ 
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out
+}
+
+.btn:focus {
+  outline: none
+}
+
+.btn.bn {
+  background-image: linear-gradient(
+    to right,
+    #f37209,
+    #d5d821,
+    #146d43c9,
+    #ff9100
+  );
+  box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75)
+}
+.bg-card{
+  background-image: url(../assets/cart8.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+ 
+  width: 100%;
+  max-height: fit-content;
+}
+.btn-edit{
+background-color:  rgba(102, 105, 100, 0.397);
+border:1px solid   rgba(102, 105, 100, 0.397);
+border-radius: 10px;
+width: 70px;
+margin: 7px;
+}
+.btn-edit:hover{
+  background-color: #146d43c9
+}
+.bg-profile{
+  background-image: url(../assets/lap.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+
+
+}
+.bg-address{
+  background-image: url(../assets/addres.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.bg-home{
+ background-color:rgba(241, 241, 239, 0.527);
+  width: 100%;
+
+  height: fit-contents;
+  display:"flex";
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.bg-chprofile{
+  background-image: url(../assets/cart7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+
+}
+.bg-avatar{
+  background-image: url(../assets/chavatar.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 550px;
+
+}
+.bg-chpassword{
+  background-image: url(../assets/chpass.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 550px;
+
+}
+.order-div{
+   border: 1px solid gray ;
+    background-color:rgba(239, 247, 240, 0.973);
+    margin:60px;
+    box-shadow: -12px 12px 12px 1px rgba(0, 0, 255, .2);
+}
+.bg-chekout{
+   background-image: url(../assets/cash.jpg); 
+background-color:rgba(255, 255, 255, 0.973); ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  
+ 
+}
